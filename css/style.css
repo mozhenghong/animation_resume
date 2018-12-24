@@ -1,0 +1,32 @@
+.token.comment {
+  color: #000; }
+
+.token.selector {
+  color: #000; }
+
+.token.punctuation {
+  color: #000; }
+
+.token.property {
+  color: #000; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+ol, ul {
+  list-style: none; }
+
+@keyframes breath {
+  0% {
+    box-shadow: 2px 3px 16px rgba(0, 0, 0, 0.1); }
+  100% {
+    box-shadow: 2px 3px 16px #fff; } }
+
+#codeWrapper #code {
+  overflow: auto; }
+
+#innerPaper {
+  overflow: auto;
+  white-space: pre-wrap; }
