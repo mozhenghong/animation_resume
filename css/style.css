@@ -20,9 +20,15 @@ ol, ul {
 
 @keyframes breath {
   0% {
-    box-shadow: 2px 3px 16px rgba(0, 0, 0, 0.1); }
+    box-shadow: 2px 3px 16px #fff; }
   100% {
-    box-shadow: 2px 3px 16px #fff; } }
+    box-shadow: 2px 3px 16px rgba(0, 0, 0, 0.3); } }
+
+body {
+  perspective: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space; }
 
 #codeWrapper #code {
   overflow: auto; }

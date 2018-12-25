@@ -20,11 +20,37 @@ ol,ul{
 }
 @keyframes breath{
     0%{
-      box-shadow: 2px 3px 16px rgba(0,0,0,0.1)
-    }
-    100%{
       box-shadow: 2px 3px 16px #fff;
     }
+    100%{
+      box-shadow: 2px 3px 16px rgba(0,0,0,0.3);
+    }
+}
+body{
+    // .buttons{
+    //     height: 100vh;
+    //     transition: none;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     button{
+    //         border-radius: 5px;
+    //         background-color: #DDDDDD;
+    //         animation: breath 1.5s linear alternate infinite ;
+    //         border: none;
+    //         margin: 16px;
+    //         padding: 8px 16px;
+    //     }
+    //     .active{
+    //         background: #11A8CD;
+    //     }
+    // }
+    perspective: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+   
 }
 #codeWrapper{
     #code{
