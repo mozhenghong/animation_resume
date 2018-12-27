@@ -39,11 +39,13 @@ body {
     body .buttons button {
       border-radius: 5px;
       background-color: #DDDDDD;
-      animation: breath 1.5s linear alternate infinite;
       border: none;
       margin: 16px;
       padding: 8px 16px; }
+    body .buttons button:focus {
+      outline: none; }
     body .buttons .active {
+      animation: breath 1.5s linear alternate infinite;
       background: #11A8CD; }
 
 #codeWrapper #code {
